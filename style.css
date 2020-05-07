@@ -1,0 +1,33 @@
+body {
+    
+    background-color: rgb(213, 214, 188);
+}
+
+nav {
+    background-color: darkolivegreen;
+    padding: 1em;
+    width: 50%;
+    display: flex;
+    border: solid rgb(38, 39, 38);
+}
+
+nav a {
+    display: flex;
+    margin: 1em;
+    align-content: center;
+    justify-content: space-evenly;
+    font-size: 1.5em;
+    color: aliceblue;
+    
+}
+
+#page-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0em;
+    background-color: rgba(122, 117, 50, 0.897);
+    padding: 1em;
+    color: aliceblue;
+    border: solid rgb(38, 39, 38);
+}
